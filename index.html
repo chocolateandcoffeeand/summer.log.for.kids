@@ -13,7 +13,7 @@
     @media(max-width:520px){.shell{width:min(100% - 16px,1180px)}.hero{padding-top:12px}.hero img{height:88px}.panel{padding:14px;border-radius:20px}.arena{padding:12px}.stage{grid-template-columns:1.15fr .85fr;min-height:245px}.enemy img{height:175px}.treasure img{height:145px}.nameplate{font-size:12px;padding:5px 8px}.quest{grid-template-columns:auto 1fr}.quest button{grid-column:1/-1;width:100%}.two{grid-template-columns:1fr}.inventory{grid-template-columns:repeat(3,1fr)}.item{min-height:96px}.item img{height:57px}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
   </style>
-  <link rel="stylesheet" href="summer-quest-v2.css?v=20260717-final-treasure">
+  <link rel="stylesheet" href="summer-quest-v2.css?v=20260717-final-message">
 </head>
 <body>
 <a class="skip" href="#main">内容へスキップ</a>
@@ -70,5 +70,5 @@ function celebrate(){const c=$('#confetti');c.innerHTML='';for(let i=0;i<70;i++)
 if(state.day!==new Date().toISOString().slice(0,10)){state.works.forEach(w=>w.doneToday=false);state.quests.forEach(q=>q.done=false);state.day=new Date().toISOString().slice(0,10);resetBattle()}render();
 })();
 </script>
-<script src="summer-quest-v2.js?v=20260717-final-treasure"></script>
+<script src="summer-quest-v2.js?v=20260717-final-message"></script>
 </body></html>
